@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conctatos</title>
+    <link rel="shorcut icon" href="../imagenes/imagenes-nav-ico/icono.jpg">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&family=Roboto+Slab:wght@200;300;400&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <!--Inicio del encabezado + navegador-->
+    <header class="header">
+        <nav class="header__nav">
+            <a href="../index.html" class="header__link-img">
+                <img src="../imagenes/imagenes-nav-ico/Background.svg" alt="logo de Indie.com" class="header__img animate__bounce">
+            </a>
+            <ul class="header__list">
+                <li class="header__item">
+                    <a href="../nosotros/nosotros.html" class="header__text">Nosotros</a>
+                </li>
+                <li class="header__item">
+                    <a href="../contactos/contactos.html" class="header__text">Contactos</a>
+                </li>
+                <li class="header__item">
+                    <a href="../noticias/noticias.html" class="header__text">Noticias</a>
+                </li>
+                <li class="header__item">
+                    <a href="../teorias-curisiodades/teorias-curiosidades.html" class="header__text">Teorías y curiosidades</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--Fin del encabezado + navegador-->
+    <!--Inicio del formulario-->
+    <main>
+        <form action="">
+            <fieldset class="form">
+                <legend>Crear una cuenta</legend>
+                <h3 class="form__title">Unete a nuestra comunidad para no perderte nuestro contenido</h3>
+                <input type="email" id="email" required placeholder="Correo electronico" class="form__input-text">
+                <input type="password" id="contraseña" required placeholder="Contraseña" class="form__input-text">
+                <div class="form__text">
+                    ¿Sobre que contenido queres que se te notifique?
+                </div>
+                <div class="form__flex-container">
+                    <div class="form__flex-items">
+                        <label for="preferencia" class="form__text-label">Noticias</label>
+                        <input type="radio" name="preferencia" id="preferencia-1" value="Noticias" class="form__input-radio">
+                    </div>
+                    <div class="form__flex-items">
+                        <label for="preferencia" class="form__text-label">Teorías y curiosidades</label>
+                        <input type="radio" name="preferencia" id="preferencia-2" value="Teorias y curiosidades" class="form__input-radio">
+                    </div>
+                    <div class="form__flex-items">
+                        <label for="preferencia" class="form__text-label">Ambos</label>
+                        <input type="radio" name="preferencia" id="preferencia-3" value="Ambos" class="form__input-radio">
+                    </div>
+                </div>
+                <div class="form__text--gray">
+                    Una vez que te hayas registrado, te llegara una notificación cada vez que subamos nuevo contenido.
+                </div>
+                <input type="submit" value="Registrarse" id="submit">
+            </fieldset>
+        </form>
+    </main>
+    <!--Fin del formulario-->
+    <!--Inicio del footer-->
+    <footer class="footer">
+        <h3 class="footer__title">Seguinos en nuestras redes sociales</h3>
+        <ul class="footer__list">
+            <li class="footer__item">
+                <a href="https://www.facebook.com/" target="_blank" class="footer__a"><img src="../imagenes/imagenes-footer/facebook-ico.png" alt="Icono de Facebook" class="footer__img"></a>
+            </li>
+            <li class="footer__item">
+                <a href="https://www.instagram.com/" target="_blank" class="footer__a"><img src="../imagenes/imagenes-footer/instagram-ico.png" alt="Icono de Instagram" class="footer__img"></a>
+            </li>
+            <li class="footer__item">
+                <a href="https://twitter.com/" target="_blank" class="footer__a"><img src="../imagenes/imagenes-footer/twitter-ico.png" alt="Icono de Twitter" class="footer__img"></a>
+            </li>
+        </ul>
+    </footer>
+    <!--Final del footer-->
+</body>
+</html>

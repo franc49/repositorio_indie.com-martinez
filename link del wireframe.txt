@@ -1,0 +1,44 @@
+Wireframes de las secciones principales:
+   
+   -Wireframe desktop index: https://wireframe.cc/V50zJJ
+   -Wireframe mobile index: https://wireframe.cc/1tJn1V
+
+   -Wireframe desktop contactos: https://wireframe.cc/QSKRJy
+   -Wireframe mobile contactos: https://wireframe.cc/LUlJd2
+
+   -Wireframe desktop teorías y curiosidades: https://wireframe.cc/XMTsy3
+   -Wireframe mobile teorías y curiosidades: https://wireframe.cc/oskNgQ
+
+   -Wireframe desktop noticias: https://wireframe.cc/7nUTQI
+   -Wireframe mobile noticias: https://wireframe.cc/6ebtoK
+
+   -Wireframe desktop nosotros: https://wireframe.cc/o6fr6q
+   -Wireframe mobile nosotros: https://wireframe.cc/twntlu
+
+Wireframes de los articulos de Teorías y curiosidades:
+   
+   -Wireframe desktop articulo "Final de Little Nightmares 2 ¿Que paso en verdad?": https://wireframe.cc/MifFfr
+   -Wireframe mobile articulo "Final de Little Nightmares 2 ¿Que paso en verdad?": https://wireframe.cc/RaRGen
+
+   -Wireframe desktop articulo "Teoría de las etapas del duelo en Majora's Mask": https://wireframe.cc/ue1kxL
+   -Wireframe mobile articulo "Teoría de las etapas del duelo en Majora's Mask": https://wireframe.cc/ldBNe2
+
+   -Wireframe desktop articulo "15 Curiosidades de Undertale": https://wireframe.cc/rPR3j7
+   -Wireframe mobile articulo "15 Curiosidades de Undertale": https://wireframe.cc/0nl0Ag
+
+   -Wireframe desktop articulo "5 beneficios de jugar videojuegos": https://wireframe.cc/ANNBE9
+   -Wireframe mobile articulo "5 beneficios de jugar videojuegos": https://wireframe.cc/VIO0pX
+
+Wireframes de los articulos de Noticias:
+
+   -Wireframe desktop articulo "Los 10 lanzamientos más esperados de Junio 2022": https://wireframe.cc/DPmwfq
+   -Wireframe mobile articulo "Los 10 lanzamientos más esperados de Junio 2022": https://wireframe.cc/pMj8uy
+
+   -Wireframe desktop articulo "FIFA cambia de nombre a EA Sports FC en 2023": https://wireframe.cc/LF06au
+   -Wireframe mobile articulo "FIFA cambia de nombre a EA Sports FC en 2023": https://wireframe.cc/0X6ghe
+
+   -Wireframe desktop articulo "Los videojuegos más esperados para 2022 retrasados a 2023": https://wireframe.cc/fJGSfb
+   -Wireframe mobile articulo "Los videojuegos más esperados para 2022 retrasados a 2023": https://wireframe.cc/diHBu6
+
+   -Wireframe desktop articulo "Wanted: Dead, presenta un nuevo tráiler lleno de acción": https://wireframe.cc/Ahjefg
+   -Wireframe mobile articulo "Wanted: Dead, presenta un nuevo tráiler lleno de acción": https://wireframe.cc/Dbq9Pl
