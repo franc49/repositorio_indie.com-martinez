@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Indie.com</title>
-    <link rel="stylesheet" href="css/estilo.css">
     <link rel="shorcut icon" href="imagenes/imagenes-nav-ico/icono.jpg">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&family=Roboto+Slab:wght@200;300;400&family=Rubik:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
     <div class="grid-container-index">
         <!--Inicio del header-->
-        <header class="header">
+        <!--<header class="header">
             <nav class="header__nav">
                 <a href="index.html" class="header__link-img">
                     <img src="imagenes/imagenes-nav-ico/background.svg" alt="logo de Indie.com" class="header__img animate__bounce">
@@ -32,6 +33,34 @@
                         <a href="teorias-curisiodades/teorias-curiosidades.html" class="header__text">Teorías y curiosidades</a>
                     </li>
                 </ul>
+            </nav>
+        </header>-->
+        <header class="header">
+            <nav class="navbar navbar-expand-lg header__nav-background">
+                <div class="container-fluid">
+                    <a href="#" id="header__link-img">
+                        <img src="imagenes/imagenes-nav-ico/background.svg" alt="Logo de Indie.com" id="header__img">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item header__item">
+                                <a class="nav-link header__text" aria-current="page" href="nosotros/nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item header__item">
+                                <a class="nav-link header__text" href="contactos/contactos.html">Contactos</a>
+                            </li>
+                            <li class="nav-item header__item">
+                                <a class="nav-link header__text" href="noticias/noticias.html">Noticias</a>
+                            </li>
+                            <li class="nav-item header__item">
+                                <a class="nav-link header__text" href="teorias-curisiodades/teorias-curiosidades.html">Teorías y curiosidades</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
         <!--Fin del header-->
@@ -131,5 +160,6 @@
         </footer>
         <!--Fin del footer-->
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

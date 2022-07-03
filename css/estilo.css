@@ -31,6 +31,7 @@ body{
 /*==============================Fin de la estructura grid del index==============================*/
 
 /*==============================Inicio del estilo del header==============================*/
+/*
     .header{
         grid-area: header;
         position: fixed;
@@ -79,14 +80,52 @@ body{
         font-weight: bold;
         color: rgb(255, 255, 255);
     }
-    
+    */
+    /*Inicio del header bootstrap*/
+    .header{
+        grid-area: header;
+        position: fixed;
+        z-index: 2;
+        top: 0;
+    }
+
+    .header__nav-background{
+        background-color: rgb(16, 133, 153);
+    }
+
+        #header__link-img{
+            display: inline;
+            width: 80%;
+        }
+
+        #header__img{
+            width: 100%;
+        }
+
+    .header__item:hover{
+        background-color: rgb(29,90,92);
+        transition: all .5s;
+    }
+
+    .header__text{
+        font-family: 'Roboto Slab', sans-serif;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        padding-left: 1rem;
+    }    
+
+    .header__text:hover{
+        color: rgb(255, 255, 255);
+    }
+    /*Fin del header bootstrap*/
 /*==============================Fin del estilo del header==============================*/
 
 /*==============================Inicio del Contenido Principal del index==============================*/
 
     .link{
         grid-area: main;
-        margin-top: 40vh;
+        margin-top: 6.5rem;
     }
 
     .link__flex{
@@ -121,6 +160,7 @@ body{
         margin-top: 1rem;
         margin-left: 1.5rem;
         margin-right: 1rem;
+        font-weight: bold;
     }
 
 /*==============================Fin del Contenido Principal del index==============================*/
