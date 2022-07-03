@@ -684,7 +684,7 @@ legend{
 
 @media (min-width: 600px){
     /*Inicio del estilo del header*/
-
+    /*
     .header{
         width: 100%;
     }
@@ -714,31 +714,32 @@ legend{
     .header__text{
         line-height: 3.2rem;
     }
+    */
 
     /*Fin del estilo del header*/
 
     /*Inicio del estilo del Contenido Principal del index*/
     .link{
-        margin-top: 25vh;
+        margin-top: 8.3rem;
     }
 
     .link__conteiner-art{
-        width: 90%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
     }
 
     .link__img{
-        width: 90%;
-        height: 23rem;
+        width: 100%;
+        height: 24rem;
         margin-top: 3rem;
     }
 
     .link__title{
         font-size: 2rem;
         margin-top: 1rem;
-        margin-left: 2.7rem;
-        margin-right: 1rem;
+        margin-left: 0;
+        margin-right: 0;
     }
     /*Fin del estilo del Contenido Principal del index*/
 
@@ -746,6 +747,7 @@ legend{
 
     .footer__list{
         width: 40%;
+        justify-content: space-between;
     }
 
     /*Fin del estilo del footer*/
