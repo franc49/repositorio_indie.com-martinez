@@ -1358,7 +1358,7 @@ legend{
 
 @media (min-width: 1200px){
     /*Inicio del estilo del header*/
-
+    /*
     .header{
         width: 100%;
     }
@@ -1394,7 +1394,34 @@ legend{
         font-size: 1.7rem;
         line-height: 15vh;
     }
+    */
+    .header__nav{
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 9rem;
+    }
 
+    .header__item{
+        height: 100%;
+    }
+
+    .header__text{
+        font-size: 1.7rem;
+        line-height: 9rem;
+    }    
+
+        #header__link-img{
+            width: 30%;
+        }
+        
+        #header__text-padding-1, #header__text-padding-2, #header__text-padding-3, #header__text-padding-4{
+            padding: 0 3rem;
+        }
+
+    .header__list{
+        width: 100%;
+        justify-content: space-around;
+    }
     /*Fin del estilo del header*/
 
     /*Inicio del estilo del contenido principal de index*/
@@ -1408,7 +1435,7 @@ legend{
     }
 
     .link__conteiner-art{
-        width: 29rem;
+        width: 28.5rem;
     }
 
     .link__img{
