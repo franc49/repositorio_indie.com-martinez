@@ -515,6 +515,10 @@ legend{
     /*Fin del estilo del header*/
 
     /*Inicio del estilo del Contenido Principal del index*/
+    .link{
+        margin-top: 8.7rem;
+    }
+    
     .link__img{
         width: 90%;
         height: 25rem;
@@ -536,6 +540,7 @@ legend{
 
     .footer__list{
         width: 50%;
+        justify-content: space-between;
     }
     /*Fin del estilo del footer*/
 
@@ -606,6 +611,10 @@ legend{
     /*Fin del estilo del header*/
 
     /*Inicio del estilo del Contenido Principal del index*/
+    .link{
+        margin-top: 8rem;
+    }
+
     .link__conteiner-art{
         width: 70%;
     }
@@ -630,7 +639,8 @@ legend{
     }
 
     .footer__list{
-        width: 50%;
+        width: 45%;
+        justify-content: space-between;
     }
     /*Fin del estilo del footer*/
 
@@ -898,7 +908,7 @@ legend{
     }
 
     .footer__title{
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         margin-left: 1rem;
         font-size: 2.5rem;
     }
@@ -980,7 +990,7 @@ legend{
 /*==============================Fin del estilo: 768px==============================*/
 
 /*==============================Inicio del estilo: 922px==============================*/
-@media (min-width: 922px){
+@media (min-width: 992px){
     /*Inicio del estilo del header*/
     /*
     .header__nav{
@@ -1235,7 +1245,7 @@ legend{
 
     /*Inicio del estilo del Contenido Principal del index*/
     .link{
-        margin-top: 16vh;
+        margin-top: 9rem;
     }
 
     .link__flex{
@@ -1426,7 +1436,7 @@ legend{
 
     /*Inicio del estilo del contenido principal de index*/
     .link{
-        margin-top: 16vh;
+        margin-top: 9rem;
     }
 
     .link__flex{
