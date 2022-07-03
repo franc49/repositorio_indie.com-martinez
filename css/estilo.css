@@ -1538,6 +1538,152 @@ legend{
 
 /*==============================Fin del estilo: 1200px==============================*/
 
+/*==============================Inicio del estilo: 1400px==============================*/
+@media (min-width: 1400px){
+    .header__nav{
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 9rem;
+    }
+
+    .header__item{
+        height: 100%;
+    }
+
+    .header__text{
+        font-size: 2rem;
+        line-height: 9rem;
+    }    
+
+        #header__link-img{
+            width: 25%;
+            margin-right: 5rem;
+        }
+        
+        #header__text-padding-1, #header__text-padding-2, #header__text-padding-3, #header__text-padding-4{
+            padding: 0 5rem;
+        }
+
+    .header__list{
+        width: 100%;
+        justify-content: space-around;
+    }
+    /*Fin del estilo del header*/
+
+    /*Inicio del estilo del contenido principal de index*/
+    .link{
+        margin-top: 9rem;
+    }
+
+    .link__flex{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .link__conteiner-art{
+        width: 30rem;
+    }
+
+    .link__img{
+        width: 100%;
+        height: 19rem;
+        margin-top: 2rem;
+    }
+
+    .link__title{
+        font-size: 1.9rem;
+        margin-top: 1rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /*Fin del estilo del contenido principal de index*/
+
+    /*Inicio del estilo del contenido principal de index*/
+    .footer{
+        height: 20vh;
+    }
+
+    .footer__title{
+        font-size: 2rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .footer__list{
+        width: 20%;
+    }
+    /*Fin del estilo del contenido principal de index*/
+
+    /*Inicio del estilo del Contenido principal de Teorías y Curiosidades*/
+    .grid-container-articles{
+        grid-template-columns: .8fr 2fr .8fr;
+        grid-template-areas: 
+        "header header header"
+        "aside arts anuncios"
+        "footer footer footer";
+    }
+
+    .flex-container__articles{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 15vh;
+        justify-content: space-around;
+    }
+
+    .flex-container-articles__art--width{
+        width: 29rem;
+    }
+
+    .flex-container-articles__img{
+        width: 100%;
+        height: 17rem;
+    }
+
+    .flex-container__articles-title{
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-left: 0;
+        margin-right: 0;
+        width: 26rem;
+    }
+    /*Fin del estilo del Contenido principal de Teorías y Curiosidades*/
+
+    /*Inicio del estilo del aside*/
+    .aside{
+        margin-top: 18.5vh;
+    }
+
+    .aside__content{
+        margin-right: 2rem;
+    }
+
+    .aside__title{
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+    }
+
+    .aside__item{
+        margin: 1rem 1rem;
+        margin-left: 2rem;
+    }
+
+    .aside__a{
+        font-size: 1.4rem;
+    }
+    /*Fin del estilo del aside*/
+
+    /*Inicio del estilo del anuncio*/
+    .ad{
+        width: 100%;
+        margin-top: 18.5vh;
+    }
+
+    .ad__img{
+        width: 90%;
+    }
+    /*Fin del estilo del anuncio*/
+}
+/*==============================Fin del estilo: 1400px==============================*/
+
 /*==============================Inicio de animaciones==============================*/
 .animate__bounce{
     animation-duration: 2s;
