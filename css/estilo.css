@@ -1177,6 +1177,7 @@ legend{
     /*Fin del estilo de la estructura grid  del index*/
 
     /*Inicio del estilo del header*/
+    /*
     .header{
         width: 100%;
     }
@@ -1201,6 +1202,34 @@ legend{
     .header__text{
         font-size: 1.6rem;
         line-height: 15vh;
+    }
+    */
+    .header__nav{
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 9rem;
+    }
+
+    .header__item{
+        height: 100%;
+    }
+
+    .header__text{
+        font-size: 1.7rem;
+        line-height: 9rem;
+    }    
+
+        #header__link-img{
+            width: 30%;
+        }
+        
+        #header__text-padding-1, #header__text-padding-2, #header__text-padding-3, #header__text-padding-4{
+            padding: 0 2.5rem;
+        }
+
+    .header__list{
+        width: 100%;
+        justify-content: space-around;
     }
     /*Fin del estilo del header*/
 
