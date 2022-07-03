@@ -585,6 +585,103 @@ legend{
 }
 /*==============================Fin del estilo: 480px==============================*/
 
+/*==============================Inicio del estilo: 576px==============================*/
+
+@media (min-width: 576px){
+    /*Inicio del estilo del header*/
+    /*
+    .header__img{
+        margin-left: 2.5rem;
+    }
+    */
+    .header__button{
+        font-size: 2.2rem;
+    }
+
+    .header__text{
+        font-size: 1.8rem;
+    }    
+
+        #header__link-img{
+            display: inline;
+            width: 60%;
+        }
+    /*Fin del estilo del header*/
+
+    /*Inicio del estilo del Contenido Principal del index*/
+    .link__conteiner-art{
+        width: 70%;
+    }
+    
+    .link__img{
+        width: 100%;
+        height: 23rem;
+    }
+
+    .link__title{
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+    /*Fin del estilo del Contenido Principal del index*/
+
+    /*Inicio del estilo del footer*/
+    .footer__title{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        margin-left: 1.5rem;
+    }
+
+    .footer__list{
+        width: 50%;
+    }
+    /*Fin del estilo del footer*/
+
+    /*Inicio del estilo del Contenido principal de Teorías y Curiosidades*/
+
+    .flex-container-articles__art--width{
+        width: 100%;
+        text-align: center;
+    }
+
+    .flex-container-articles__img{
+        width: 90%;
+        height: 25rem;
+    }
+
+    .flex-container__articles-title{
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-left: 2.5rem;
+        margin-right: 1rem;
+    }
+    /*Fin del estilo del Contenido principal de Teorías y Curiosidades*/
+    
+    /*Inicio del estilo del aside*/
+    .aside{
+        width: 90%;
+        margin: 2rem auto;
+    }
+
+    .aside__title{
+        font-size: 2.2rem;
+        line-height: 4rem;
+    }
+
+    .aside__item{
+        margin: 1rem 1.5rem;
+    }
+
+    .aside__a{
+        font-family: 'Nunito', sans-serif;
+        font-size: 1.5rem;
+    }
+    /*Fin del estilo del aside*/
+    
+}
+
+/*==============================Fin del estilo: 576px==============================*/
+
 /*==============================Inicio del estilo: 600px==============================*/
 
 @media (min-width: 600px){
