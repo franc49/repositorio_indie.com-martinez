@@ -612,6 +612,92 @@ legend{
     }
     /*Fin del estilo del aside*/
     
+    /*Inicio del estilo de contactos*/
+    .form{
+        display: block;
+        width: 70%;
+        margin: 11rem auto 0 auto;
+        border: 1px solid rgba(165, 165, 165, 0.8);
+    }
+
+    .form__title{
+        text-align: center;
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .form__text, .form__text--gray{
+        font-size: 1.5rem;
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bold;
+    }
+
+    .form__text--gray{
+        color: rgb(128, 128, 128);
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .form__flex-container{
+        display: flex;
+        justify-content: space-around;
+        margin: 1.5rem auto;
+    }
+
+    .form__flex-items{
+        width: 11.5rem;
+        height: 6rem;
+    }
+
+    .form__input-radio{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 1rem;
+    }
+
+    .form__text-label{
+        font-size: 1.5rem;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .form__check{
+        font-size: 1.5rem;
+        margin-left: 6rem;
+    }
+
+    .form__text-check{
+        font-size: 1.4rem;
+    }
+
+    .form__sub-text-input{
+        font-size: 1.2rem;
+    }
+
+    .form__text-radio{
+        display: block;
+        text-align: center;
+        font-size: 1.4rem;
+        height: 4rem;
+        font-family: 'Nunito', sans-serif;
+    }
+
+        #submit{
+            display: block;
+            margin: 2rem auto; 
+            width: 25rem;
+            height: 3rem;
+            background: linear-gradient(to left, rgb(16, 133, 153), rgb(1, 200, 235));
+            border: none;
+            color: rgb(255, 255, 255);
+            border-radius: .5rem;
+            cursor: pointer;
+            font-family: 'Nunito';
+            font-size: 1.4rem;
+        }
+    /*Fin del estilo de contactos*/
 }
 /*==============================Fin del estilo: 480px==============================*/
 
