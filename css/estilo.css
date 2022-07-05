@@ -1710,6 +1710,14 @@ legend{
         width: 90%;
     }
     /*Fin del estilo del anuncio*/
+
+    .form{
+        width: 40%;
+    }
+
+    .form__input-radio{
+        margin-top: 2rem;
+    }
 }
 
 /*==============================Fin del estilo: 1200px==============================*/
