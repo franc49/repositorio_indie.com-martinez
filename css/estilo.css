@@ -199,7 +199,7 @@ body{
     }
 /*==============================Fin del estilo del footer==============================*/
 
-/*==============================Inicio del estilo de Teorías y Curiosidades==============================*/
+/*==============================Inicio del estilo de Noticias y de Teorías y Curiosidades==============================*/
     .grid-container-articles{
         display: grid;
         grid-template-columns: 1fr;
@@ -215,18 +215,19 @@ body{
     .flex-container__articles{
         display: flex;
         flex-direction: column;
-        margin-top: 40vh;
+        margin-top: 6.5rem;
         grid-area: arts;
     }
 
-    .flex-container-articles__art--width{
-        width: 100%;
-        text-align: center;
+    .flex-container__articles-item-article{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .flex-container-articles__img{
-        width: 90%;
-        height: 15rem;
+        width: 100%;
+        height: 17rem;
         margin-top: 2rem;
     }
 
@@ -240,21 +241,22 @@ body{
         font-weight: bold;
         font-size: 1.5rem;
         margin-top: 1rem;
-        margin-left: 1.5rem;
-        margin-right: 1rem;
     }
-/*==============================Fin del estilo de Teorías y Curiosidades==============================*/
+/*==============================Fin del estilo de Noticias y Teorías y Curiosidades==============================*/
 
 /*==============================Inicio del estilo del aside==============================*/
     .aside{
         margin-top: 2rem;
         grid-area: aside;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
     }
-
+    /*
     .aside__content{
-        margin-right: 2rem;
+        
     }
-
+    */
     .aside__title{
         color: rgb(255, 255, 255);
         font-family: Arial, Helvetica, sans-serif;
@@ -527,11 +529,11 @@ legend{
 @media (min-width: 480px){
 
     /*Inicio del estilo del header*/
-    /*
-    .header__img{
-        margin-left: 2.5rem;
+
+    #header__link-img{
+        width: 60%;
     }
-    */
+
     .header__button{
         font-size: 2.2rem;
     }
@@ -574,21 +576,23 @@ legend{
 
     /*Inicio del estilo del Contenido principal de Teorías y Curiosidades*/
 
-    .flex-container-articles__art--width{
-        width: 100%;
-        text-align: center;
+    .flex-container__articles{
+        margin-top: 9rem;
+    }
+    .flex-container__articles-item-article{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .flex-container-articles__img{
-        width: 90%;
+        width: 100%;
         height: 25rem;
     }
 
     .flex-container__articles-title{
         font-size: 2rem;
         margin-top: 1rem;
-        margin-left: 2.5rem;
-        margin-right: 1rem;
     }
     /*Fin del estilo del Contenido principal de Teorías y Curiosidades*/
     
@@ -633,12 +637,6 @@ legend{
 /*==============================Inicio del estilo: 576px==============================*/
 
 @media (min-width: 576px){
-    /*Inicio del estilo del header*/
-    /*
-    .header__img{
-        margin-left: 2.5rem;
-    }
-    */
     .header__button{
         font-size: 2.2rem;
     }
@@ -648,7 +646,7 @@ legend{
     }    
 
         #header__link-img{
-            width: 60%;
+            width: 50%;
         }
     /*Fin del estilo del header*/
 
@@ -809,38 +807,9 @@ legend{
 
 @media (min-width: 600px){
     /*Inicio del estilo del header*/
-    /*
-    .header{
-        width: 100%;
+    #header__link-img{
+        width: 50%;
     }
-
-    .header__nav{
-        height: 27vh;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-
-    .header__link-img{
-        height: 15vh;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-
-    .header__img{
-        width: 50vh;
-        height: 15vh;
-    }
-
-    .header__list{
-        width: 30%;
-    }
-
-    .header__text{
-        line-height: 3.2rem;
-    }
-    */
-
     /*Fin del estilo del header*/
 
     /*Inicio del estilo del Contenido Principal del index*/
@@ -972,37 +941,6 @@ legend{
 
 @media (min-width: 768px) {
     /*Inicio del estilo del header*/
-    /*
-    .header__nav{
-        height: 29vh;
-        flex-wrap: wrap;
-        align-content: space-between;
-    }
-
-    .header__link-img{
-        height: 15vh;
-        width: 50%;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-
-    .header__img{
-        width: 100%;
-        height: 15vh;
-    }
-
-    .header__list{
-        width: 30%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .header__text{
-        text-decoration: none;
-        font-size: 2rem;
-        line-height: 3.5rem;
-    }
-    */
     .header__button{
         font-size: 2.5rem;
     }
@@ -1013,7 +951,7 @@ legend{
     }    
 
         #header__link-img{
-            width: 50%;
+            width: 40%;
         }
 
     /*Fin del estilo del header*/
@@ -1646,43 +1584,6 @@ legend{
 
 @media (min-width: 1200px){
     /*Inicio del estilo del header*/
-    /*
-    .header{
-        width: 100%;
-    }
-
-    .header__nav{
-        height: 15vh;
-        display: flex;
-        flex-wrap: nowrap;
-        align-content: space-between;
-    }
-
-    .header__link-img{
-        width: 20%;
-    }
-    
-    .header__img{
-        width: 100%;
-        height: 15vh;
-        margin-left: 0;
-    }
-
-    .header__list{
-        width: 60%;
-        flex-direction: row;
-        margin-left: 0;
-        margin-right: 0;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    .header__text{
-        text-decoration: none;
-        font-size: 1.7rem;
-        line-height: 15vh;
-    }
-    */
     .header__nav{
         padding-top: 0;
         padding-bottom: 0;
@@ -1827,7 +1728,7 @@ legend{
 
     /*Inicio del estilo de contactos*/
     .form{
-        width: 40%;
+        width: 30%;
     }
 
     .form__input-radio{
