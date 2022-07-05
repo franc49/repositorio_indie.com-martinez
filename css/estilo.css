@@ -718,6 +718,7 @@ legend{
         font-size: 1.5rem;
     }
     /*Fin del estilo del aside*/
+    /*Inicio del estilo de contactos*/
 
     .form{
         width: 60%;
@@ -768,6 +769,7 @@ legend{
             height: 3rem;
             font-size: 1.5rem;
         }
+    /*Fin del estilo de contactos*/
 }
 
 /*==============================Fin del estilo: 576px==============================*/
@@ -903,6 +905,13 @@ legend{
         width: 50%;
     }
     /*Fin del estilo de anuncios*/
+
+    /*Inicio del estilo de contactos*/
+
+    .form{
+        width: 70%;
+    }
+    /*Fin del estilo de contactos*/
 
 }
 
