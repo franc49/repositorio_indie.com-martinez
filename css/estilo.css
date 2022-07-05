@@ -1137,7 +1137,7 @@ legend{
 
 /*==============================Fin del estilo: 768px==============================*/
 
-/*==============================Inicio del estilo: 922px==============================*/
+/*==============================Inicio del estilo: 992px==============================*/
 @media (min-width: 992px){
     /*Inicio del estilo del header*/
     /*
@@ -1315,9 +1315,17 @@ legend{
         width: 50%;
     }
     /*Fin del estilo de anuncios*/
+
+    /*Inicio del estilo de contactos*/
+
+    .form{
+        width: 60%;
+    }
+
+    /*Fin del estilo de contactos*/
 }
 
-/*==============================Inicio del estilo: 922px==============================*/
+/*==============================Inicio del estilo: 992px==============================*/
 
 /*==============================Inicio del estilo: 1024px==============================*/
 
