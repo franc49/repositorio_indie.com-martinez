@@ -396,19 +396,19 @@ legend{
 /*==============================Fin del estilo de Contactos==============================*/
 
 /*==============================Inicio del estilo de nosotros==============================*/
-    .presentation{
-        margin-top: 18vh;
-        margin-left: 5rem;
-        width: 70%;
+
+    .container{
+        margin-top: 9rem;
     }
 
     .presentation__title{
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 3rem;
+        font-size: 2rem;
+        font-weight: bold
     }
     .presentation__text{
     font-family: 'Nunito', sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     line-height: 3rem;
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
@@ -416,7 +416,8 @@ legend{
     
     .presentation__subtitle{
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 2.5rem;
+        font-size: 1.8rem;
+        font-weight: bold;
     }
 
     .presentation__subtitle-3{
@@ -619,6 +620,13 @@ legend{
     }
 
     /*Fin del estilo de contactos*/
+
+    /*Inicio del estilo de nosotros*/
+    .container{
+        margin-top: 10rem;
+    }
+
+    /*Fin del estilo de nosotros*/
 }
 /*==============================Fin del estilo: 480px==============================*/
 
@@ -770,6 +778,29 @@ legend{
             font-size: 1.5rem;
         }
     /*Fin del estilo de contactos*/
+
+    /*Inicio del estilo de nosotros*/
+
+    .container{
+        margin-top: 10rem;
+    }
+
+    .presentation__title{
+        font-size: 2.5rem;
+    }
+    .presentation__text{
+    font-size: 1.7rem;
+    }  
+    
+    .presentation__subtitle{
+        font-size: 2.2rem;
+    }
+
+    .presentation__subtitle-3{
+        font-size: 2rem;
+    }
+
+    /*Fin del estilo de nosotros*/
 }
 
 /*==============================Fin del estilo: 576px==============================*/
@@ -913,6 +944,26 @@ legend{
     }
     /*Fin del estilo de contactos*/
 
+    /*Inicio del estilo de contactos*/
+    .container{
+        margin-top: 10rem;
+    }
+
+    .presentation__title{
+        font-size: 2.5rem;
+    }
+    .presentation__text{
+    font-size: 1.7rem;
+    }  
+    
+    .presentation__subtitle{
+        font-size: 2.2rem;
+    }
+
+    .presentation__subtitle-3{
+        font-size: 2rem;
+    }
+    /*Fin del estilo de contactos*/
 }
 
 /*==============================Fin del estilo: 600px==============================*/
@@ -1133,6 +1184,27 @@ legend{
             font-size: 1.8rem;
         }
     /*Fin del estilo de contactos*/
+
+    /*Inicio del estilo de contactos*/
+    .container{
+        margin-top: 12rem;
+    }
+
+    .presentation__title{
+        font-size: 2.5rem;
+    }
+    .presentation__text{
+    font-size: 1.7rem;
+    }  
+    
+    .presentation__subtitle{
+        font-size: 2.2rem;
+    }
+
+    .presentation__subtitle-3{
+        font-size: 2rem;
+    }
+    /*Fin del estilo de contactos*/
 }
 
 /*==============================Fin del estilo: 768px==============================*/
@@ -1323,6 +1395,27 @@ legend{
     }
 
     /*Fin del estilo de contactos*/
+
+    /*Inicio del estilo de nosotros*/
+    .container{
+        margin-top: 10rem;
+    }
+
+    .presentation__title{
+        font-size: 3rem;
+    }
+    .presentation__text{
+    font-size: 1.8rem;
+    }  
+    
+    .presentation__subtitle{
+        font-size: 2.4rem;
+    }
+
+    .presentation__subtitle-3{
+        font-size: 2rem;
+    }
+    /*Fin del estilo de nosotros*/
 }
 
 /*==============================Inicio del estilo: 992px==============================*/
@@ -1524,6 +1617,27 @@ legend{
     }
 
     /*Fin del estilo de contactos*/
+
+    /*Inicio del estilo de nosotros*/
+    .container{
+        margin-top: 10rem;
+    }
+
+    .presentation__title{
+        font-size: 3rem;
+    }
+    .presentation__text{
+    font-size: 1.8rem;
+    }  
+    
+    .presentation__subtitle{
+        font-size: 2.4rem;
+    }
+
+    .presentation__subtitle-3{
+        font-size: 2rem;
+    }
+    /*Fin del estilo de nosotros*/
 }
 
 /*==============================Fin del estilo: 1024px==============================*/
@@ -1711,6 +1825,7 @@ legend{
     }
     /*Fin del estilo del anuncio*/
 
+    /*Inicio del estilo de contactos*/
     .form{
         width: 40%;
     }
@@ -1718,6 +1833,28 @@ legend{
     .form__input-radio{
         margin-top: 2rem;
     }
+    /*Fin del estilo de contactos*/
+
+    /*Inicio del estilo de nosotros*/
+    .container{
+        margin-top: 10rem;
+    }
+
+    .presentation__title{
+        font-size: 3rem;
+    }
+    .presentation__text{
+    font-size: 1.8rem;
+    }  
+    
+    .presentation__subtitle{
+        font-size: 2.4rem;
+    }
+
+    .presentation__subtitle-3{
+        font-size: 2rem;
+    }
+    /*Fin del estilo de nosotros*/
 }
 
 /*==============================Fin del estilo: 1200px==============================*/
