@@ -1516,6 +1516,14 @@ legend{
         width: 90%;
     }
     /*Fin del estilo del anuncio*/
+
+    /*Inicio del estilo de contactos*/
+
+    .form{
+        width: 45%;
+    }
+
+    /*Fin del estilo de contactos*/
 }
 
 /*==============================Fin del estilo: 1024px==============================*/
