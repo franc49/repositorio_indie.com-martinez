@@ -32,55 +32,6 @@ body{
 
 /*==============================Inicio del estilo del header==============================*/
 /*
-    .header{
-        grid-area: header;
-        position: fixed;
-        z-index: 2;
-        top: 0;
-    }
-
-    .header__nav{
-        background-color: rgb(16, 133, 153);
-        width: 100%;
-        height: 40vh;
-        display: flex;
-        flex-wrap: wrap;
-        align-content: space-between;
-    }
-
-    .header__img{
-        width: 100%;
-        height: 15vh;
-    }
-
-    .header__list{
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        margin-left: auto;
-        margin-right: auto;
-        align-items: center;
-        list-style: none;
-    }
-
-    .header__item{
-        text-align: center;
-        width: 100%;
-    }
-
-    .header__item:hover{
-        background-color: rgb(29,90,92);
-        transition: all .5s;
-    }
-    .header__text{
-        text-decoration: none;
-        font-size: 1.5rem;
-        line-height: 3rem;
-        font-family: 'Roboto Slab', sans-serif;
-        font-weight: bold;
-        color: rgb(255, 255, 255);
-    }
-    */
     /*Inicio del header bootstrap*/
     .header{
         grid-area: header;
@@ -146,7 +97,7 @@ body{
 
     .link__img{
         width: 100%;
-        height: 15rem;
+        height: 18rem;
         margin-top: 2rem;
     }
 
@@ -227,7 +178,7 @@ body{
 
     .flex-container-articles__img{
         width: 100%;
-        height: 17rem;
+        height: 18rem;
         margin-top: 2rem;
     }
 
@@ -550,15 +501,13 @@ legend{
     }
     
     .link__img{
-        width: 90%;
+        width: 100%;
         height: 25rem;
     }
 
     .link__title{
         font-size: 2rem;
         margin-top: 1rem;
-        margin-left: 2.5rem;
-        margin-right: 1rem;
     }
     /*Fin del estilo del Contenido Principal del index*/
 
@@ -686,21 +635,20 @@ legend{
 
     /*Inicio del estilo del Contenido principal de Teorías y Curiosidades*/
 
-    .flex-container-articles__art--width{
-        width: 100%;
-        text-align: center;
+    .flex-container__articles-item-article{
+        width: 70%;
     }
 
     .flex-container-articles__img{
-        width: 90%;
-        height: 25rem;
+        width: 100%;
+        height: 23rem;
     }
 
     .flex-container__articles-title{
         font-size: 2rem;
         margin-top: 1rem;
-        margin-left: 2.5rem;
-        margin-right: 1rem;
+        margin-left: 0;
+        
     }
     /*Fin del estilo del Contenido principal de Teorías y Curiosidades*/
     
@@ -818,14 +766,14 @@ legend{
     }
 
     .link__conteiner-art{
-        width: 80%;
+        width: 65%;
         margin-left: auto;
         margin-right: auto;
     }
 
     .link__img{
         width: 100%;
-        height: 24rem;
+        height: 25rem;
         margin-top: 3rem;
     }
 
@@ -852,25 +800,21 @@ legend{
         margin-top: 7.5rem;
     }
 
-    .flex-container-articles__art--width{
-        width: 100%;
-        text-align: center;
+    .flex-container__articles-item-article{
+        width: 65%;
     }
 
     .flex-container-articles__img{
-        width: 80%;
+        width: 100%;
         height: 25rem;
         margin-top: 3rem;
     }
 
     .flex-container__articles-title{
-        color: rgb(0, 0, 0);
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
         font-size: 2rem;
         margin-top: 1rem;
-        margin-left: 6rem;
-        margin-right: 9rem;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     /*Fin del estilo del Contenido principal de Teorías y Curiosidades*/
@@ -974,8 +918,6 @@ legend{
     }
 
     .link__title{
-        color: rgb(0, 0, 0);
-        font-family: Arial, Helvetica, sans-serif;
         font-size: 2.5rem;
         margin-top: 1rem;
         margin-left: 0;
@@ -1010,25 +952,21 @@ legend{
         margin-top: 9rem;
     }
 
-    .flex-container-articles__art--width{
-        width: 100%;
-        text-align: center;
+    .flex-container__articles-item-article{
+        width: 70%;
     }
 
     .flex-container-articles__img{
-        width: 70%;
-        height: 25rem;
+        width: 100%;
+        height: 30rem;
         margin-top: 2rem;
     }
 
     .flex-container__articles-title{
-        color: rgb(0, 0, 0);
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
         font-size: 2.5rem;
         margin-top: 1rem;
-        margin-left: 12rem;
-        margin-right: 9rem;
+        margin-left: 0;
+        margin-right: 0;
     }
     /*Fin del estilo del Contenido principal de Teorías y Curiosidades*/
 
@@ -1192,7 +1130,7 @@ legend{
     }
 
     .link__conteiner-art{
-        width: 45%;
+        width: 40%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1252,7 +1190,7 @@ legend{
     }
 
     .flex-container__articles-title{
-        font-size: 1.8rem;
+        font-size: 2rem;
         margin-top: 1rem;
         margin-left: 0rem;
         margin-right: 0rem;
