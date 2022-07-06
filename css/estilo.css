@@ -849,7 +849,7 @@ legend{
     /*Inicio del estilo del Contenido principal de Teorías y Curiosidades*/
 
     .flex-container__articles{
-        margin-top: 25vh;
+        margin-top: 7.5rem;
     }
 
     .flex-container-articles__art--width{
@@ -1007,7 +1007,7 @@ legend{
     .flex-container__articles{
         display: flex;
         flex-direction: column;
-        margin-top: 30vh;
+        margin-top: 9rem;
     }
 
     .flex-container-articles__art--width{
@@ -1150,37 +1150,6 @@ legend{
 /*==============================Inicio del estilo: 992px==============================*/
 @media (min-width: 992px){
     /*Inicio del estilo del header*/
-    /*
-    .header__nav{
-        height: 29vh;
-        flex-wrap: wrap;
-        align-content: space-between;
-    }
-
-    .header__link-img{
-        height: 15vh;
-        width: 50%;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-
-    .header__img{
-        width: 100%;
-        height: 15vh;
-    }
-
-    .header__list{
-        width: 30%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .header__text{
-        text-decoration: none;
-        font-size: 2rem;
-        line-height: 3.5rem;
-    }
-    */
 
     .header__nav{
         padding-top: 0;
@@ -1265,36 +1234,35 @@ legend{
 
     .flex-container__articles{
         display: flex;
-        flex-direction: column;
-        margin-top: 30vh;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 9rem;
     }
 
-    .flex-container-articles__art--width{
-        width: 100%;
-        text-align: center;
+    .flex-container__articles-item-article{
+        width: 40%;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .flex-container-articles__img{
-        width: 70%;
+        width: 100%;
         height: 25rem;
         margin-top: 2rem;
     }
 
     .flex-container__articles-title{
-        color: rgb(0, 0, 0);
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-        font-size: 2.5rem;
+        font-size: 1.8rem;
         margin-top: 1rem;
-        margin-left: 12rem;
-        margin-right: 9rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
     }
     /*Fin del estilo del Contenido principal de Teorías y Curiosidades*/
 
     /*Inicio del estilo del aside*/
     .aside{
         margin-top: 3rem;
-        width: 70%;
+        width: 50%;
     }
 
     .aside__content{
@@ -1310,7 +1278,7 @@ legend{
     }
 
     .aside__a{
-        font-size: 2.2rem;
+        font-size: 1.8rem;
     }
     /*Fin del estilo del aside*/
 
@@ -1374,33 +1342,7 @@ legend{
     /*Fin del estilo de la estructura grid  del index*/
 
     /*Inicio del estilo del header*/
-    /*
-    .header{
-        width: 100%;
-    }
 
-    .header__nav{
-        height: 15vh;
-        flex-wrap: nowrap;
-    }
-
-    .header__img{
-        width: 60%;
-        height: 15vh;
-    }
-
-    .header__list{
-        width: 100%;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-
-    .header__text{
-        font-size: 1.6rem;
-        line-height: 15vh;
-    }
-    */
     .header__nav{
         padding-top: 0;
         padding-bottom: 0;
@@ -1488,7 +1430,7 @@ legend{
     .flex-container__articles{
         flex-direction: row;
         flex-wrap: wrap;
-        margin-top: 15vh;
+        margin-top: 9rem;
         justify-content: space-around;
     }
 
@@ -1502,7 +1444,7 @@ legend{
     }
 
     .flex-container__articles-title{
-        font-size: 2rem;
+        font-size: 1.8rem;
         margin-top: 1rem;
         margin-left: 0;
         margin-right: 0;
@@ -1512,7 +1454,8 @@ legend{
 
     /*Inicio del estilo del aside*/
     .aside{
-        margin-top: 18.5vh;
+        margin-top: 10rem;
+        width: 100%;
     }
 
     .aside__content{
@@ -1666,6 +1609,9 @@ legend{
         "footer footer footer";
     }
 
+    .flex-container__articles-item-article{
+        width: 50%;
+    }
     .flex-container__articles{
         flex-direction: row;
         flex-wrap: wrap;
@@ -1693,7 +1639,8 @@ legend{
 
     /*Inicio del estilo del aside*/
     .aside{
-        margin-top: 18.5vh;
+        margin-top: 10rem;
+        width: 100%;
     }
 
     .aside__content{
@@ -1718,7 +1665,7 @@ legend{
     /*Inicio del estilo del anuncio*/
     .ad{
         width: 100%;
-        margin-top: 18.5vh;
+        margin-top: 10rem;
     }
 
     .ad__img{
@@ -1759,152 +1706,6 @@ legend{
 }
 
 /*==============================Fin del estilo: 1200px==============================*/
-
-/*==============================Inicio del estilo: 1400px==============================*/
-@media (min-width: 1400px){
-    .header__nav{
-        padding-top: 0;
-        padding-bottom: 0;
-        height: 9rem;
-    }
-
-    .header__item{
-        height: 100%;
-    }
-
-    .header__text{
-        font-size: 2rem;
-        line-height: 9rem;
-    }    
-
-        #header__link-img{
-            width: 25%;
-            margin-right: 5rem;
-        }
-        
-        #header__text-padding-1, #header__text-padding-2, #header__text-padding-3, #header__text-padding-4{
-            padding: 0 5rem;
-        }
-
-    .header__list{
-        width: 100%;
-        justify-content: space-around;
-    }
-    /*Fin del estilo del header*/
-
-    /*Inicio del estilo del contenido principal de index*/
-    .link{
-        margin-top: 9rem;
-    }
-
-    .link__flex{
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .link__conteiner-art{
-        width: 30rem;
-    }
-
-    .link__img{
-        width: 100%;
-        height: 19rem;
-        margin-top: 2rem;
-    }
-
-    .link__title{
-        font-size: 1.9rem;
-        margin-top: 1rem;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    /*Fin del estilo del contenido principal de index*/
-
-    /*Inicio del estilo del contenido principal de index*/
-    .footer{
-        height: 20vh;
-    }
-
-    .footer__title{
-        font-size: 2rem;
-        margin-bottom: 2rem;
-    }
-
-    .footer__list{
-        width: 20%;
-    }
-    /*Fin del estilo del contenido principal de index*/
-
-    /*Inicio del estilo del Contenido principal de Teorías y Curiosidades*/
-    .grid-container-articles{
-        grid-template-columns: .8fr 2fr .8fr;
-        grid-template-areas: 
-        "header header header"
-        "aside arts anuncios"
-        "footer footer footer";
-    }
-
-    .flex-container__articles{
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-top: 15vh;
-        justify-content: space-around;
-    }
-
-    .flex-container-articles__art--width{
-        width: 29rem;
-    }
-
-    .flex-container-articles__img{
-        width: 100%;
-        height: 17rem;
-    }
-
-    .flex-container__articles-title{
-        font-size: 2rem;
-        margin-top: 1rem;
-        margin-left: 0;
-        margin-right: 0;
-        width: 26rem;
-    }
-    /*Fin del estilo del Contenido principal de Teorías y Curiosidades*/
-
-    /*Inicio del estilo del aside*/
-    .aside{
-        margin-top: 18.5vh;
-    }
-
-    .aside__content{
-        margin-right: 2rem;
-    }
-
-    .aside__title{
-        font-size: 1.7rem;
-        line-height: 2.5rem;
-    }
-
-    .aside__item{
-        margin: 1rem 1rem;
-        margin-left: 2rem;
-    }
-
-    .aside__a{
-        font-size: 1.4rem;
-    }
-    /*Fin del estilo del aside*/
-
-    /*Inicio del estilo del anuncio*/
-    .ad{
-        width: 100%;
-        margin-top: 18.5vh;
-    }
-
-    .ad__img{
-        width: 90%;
-    }
-    /*Fin del estilo del anuncio*/
-}
-/*==============================Fin del estilo: 1400px==============================*/
 
 /*==============================Inicio de animaciones==============================*/
 .animate__bounce{
