@@ -1,4 +1,4 @@
-/*==============================Inicio del reset==============================*/
+/*==============================Inicio del reset====================================================*/
 
 *{
     margin: 0;
@@ -15,7 +15,7 @@ body{
     background-image: url(../imagenes/fondo/fondo.jpg);
 }
 
-/*==============================Fin del reset==============================*/
+/*==============================Fin del reset=======================================================*/
 
 /*==============================Inicio de la estructura grid del index==============================*/
     .grid-container-index{
@@ -28,11 +28,10 @@ body{
         "footer";
         width: 100%;
     }
-/*==============================Fin de la estructura grid del index==============================*/
+/*==============================Fin de la estructura grid del index=================================*/
 
-/*==============================Inicio del estilo del header==============================*/
-/*
-    /*Inicio del header bootstrap*/
+/*==============================Inicio del estilo del header========================================*/
+
     .header{
         grid-area: header;
         position: fixed;
@@ -70,8 +69,8 @@ body{
     .header__text:hover{
         color: rgb(255, 255, 255);
     }
-    /*Fin del header bootstrap*/
-/*==============================Fin del estilo del header==============================*/
+
+/*==============================Fin del estilo del header=============================================*/
 
 /*==============================Inicio del Contenido Principal del index==============================*/
 
@@ -115,7 +114,7 @@ body{
 
 /*==============================Fin del Contenido Principal del index==============================*/
 
-/*==============================Inicio del estilo del footer==============================*/
+/*==============================Inicio del estilo del footer=======================================*/
     .footer{
         grid-area: footer;
         background-color: rgb(206,142,44);
@@ -150,7 +149,7 @@ body{
     }
 /*==============================Fin del estilo del footer==============================*/
 
-/*==============================Inicio del estilo de Noticias y de Teorías y Curiosidades==============================*/
+/*==============================Inicio del estilo de Noticias y de Teorías y Curiosidades======*/
     .grid-container-articles{
         display: grid;
         grid-template-columns: 1fr;
@@ -193,7 +192,7 @@ body{
         font-size: 1.5rem;
         margin-top: 1rem;
     }
-/*==============================Fin del estilo de Noticias y Teorías y Curiosidades==============================*/
+/*==============================Fin del estilo de Noticias y Teorías y Curiosidades======*/
 
 /*==============================Inicio del estilo del aside==============================*/
     .aside{
@@ -203,11 +202,7 @@ body{
         margin-left: auto;
         margin-right: auto;
     }
-    /*
-    .aside__content{
-        
-    }
-    */
+
     .aside__title{
         color: rgb(255, 255, 255);
         font-family: Arial, Helvetica, sans-serif;
@@ -230,9 +225,9 @@ body{
         #aside--margin-art{
             margin-top: 2rem;
         }
-/*==============================Fin del estilo del aside==============================*/
+/*==============================Fin del estilo del aside==================================*/
 
-/*==============================Inicio del estilo de anuncios==============================*/
+/*==============================Inicio del estilo de anuncios=============================*/
     .ad{
         width: 100%;
         text-align: center;
@@ -246,9 +241,9 @@ body{
         #ad--margin-art{
             margin-top: 2rem;
         }
-/*==============================Fin del estilo de anuncios==============================*/
+/*==============================Fin del estilo de anuncios====================================*/
 
-/*==============================Inicio del estilo de Contactos==============================*/
+/*==============================Inicio del estilo de Contactos================================*/
 legend{
     display: none;
 }
@@ -336,7 +331,7 @@ legend{
             font-family: 'Nunito';
             font-size: 1.4rem;
         }
-/*==============================Fin del estilo de Contactos==============================*/
+/*==============================Fin del estilo de Contactos================================*/
 
 /*==============================Inicio del estilo de nosotros==============================*/
 
@@ -370,24 +365,7 @@ legend{
     }
 /*==============================Fin del estilo de nosotros==============================*/
 
-/*==============================Inicio del estilos de los articulos==============================*/
-/*
-    .article{
-        width: 100%;
-        margin-top: 10rem;
-        margin-bottom: 5rem;
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-    }
-
-    .article__box{
-        width: 100%;
-        padding-left: 5rem;
-        margin-right: 2rem;
-    }
-    
-*/
+/*==============================Inicio del estilos de los articulos=====================*/
     .article{
         margin-top: 8.2rem;
         margin-left: .5rem;
@@ -517,7 +495,7 @@ legend{
     }
     /*Fin del estilo del footer*/
 
-    /*Inicio del estilo del Contenido principal de Teorías y Curiosidades*/
+    /*Inicio del estilo del Contenido principal de Noticias y Teorías y Curiosidades*/
 
     .flex-container__articles{
         margin-top: 9rem;
@@ -538,7 +516,7 @@ legend{
         font-size: 2rem;
         margin-top: 1rem;
     }
-    /*Fin del estilo del Contenido principal de Teorías y Curiosidades*/
+    /*Fin del estilo del Contenido principal de Noticias yTeorías y Curiosidades*/
     
     /*Inicio del estilo de articulos*/
     .article{
@@ -586,7 +564,7 @@ legend{
         width: 30rem; 
         height: 35rem;
     }
-    /*Inicio del estilo de articulos*/
+    /*Fin del estilo de articulos*/
 
     /*Inicio del estilo del aside*/
     .aside{
@@ -623,11 +601,12 @@ legend{
 
     /*Fin del estilo de nosotros*/
 }
-/*==============================Fin del estilo: 480px==============================*/
+/*==============================Fin del estilo: 480px==========================================*/
 
-/*==============================Inicio del estilo: 576px==============================*/
+/*==============================Inicio del estilo: 576px=======================================*/
 
 @media (min-width: 576px){
+    /*Inicio del estilo del header*/
     .header__button{
         font-size: 2.2rem;
     }
@@ -675,7 +654,7 @@ legend{
     }
     /*Fin del estilo del footer*/
 
-    /*Inicio del estilo del Contenido principal de Teorías y Curiosidades*/
+    /*Inicio del estilo del Contenido principal de Noticias y Teorías y Curiosidades*/
 
     .flex-container__articles-item-article{
         width: 70%;
@@ -692,7 +671,7 @@ legend{
         margin-left: 0;
         
     }
-    /*Fin del estilo del Contenido principal de Teorías y Curiosidades*/
+    /*Fin del estilo del Contenido principal de Noticias y Teorías y Curiosidades*/
     
     /*Inicio del estilo de los articulos*/
     .article{
@@ -767,6 +746,7 @@ legend{
         font-size: 1.8rem;
     }
     /*Fin del estilo del aside*/
+
     /*Inicio del estilo de contactos*/
 
     .form{
@@ -844,9 +824,9 @@ legend{
     /*Fin del estilo de nosotros*/
 }
 
-/*==============================Fin del estilo: 576px==============================*/
+/*==============================Fin del estilo: 576px==========================================*/
 
-/*==============================Inicio del estilo: 600px==============================*/
+/*==============================Inicio del estilo: 600px=======================================*/
 
 @media (min-width: 600px){
     /*Inicio del estilo del header*/
@@ -889,7 +869,7 @@ legend{
 
     /*Fin del estilo del footer*/
 
-    /*Inicio del estilo del Contenido principal de Teorías y Curiosidades*/
+    /*Inicio del estilo del Contenido principal de Noticias y Teorías y Curiosidades*/
 
     .flex-container__articles{
         margin-top: 7.5rem;
@@ -912,7 +892,7 @@ legend{
         margin-right: 0;
     }
 
-    /*Fin del estilo del Contenido principal de Teorías y Curiosidades*/
+    /*Fin del estilo del Contenido principal de Noticias y Teorías y Curiosidades*/
 
     /*Inicio del estilo de los articulos*/
     .article{
@@ -959,7 +939,7 @@ legend{
     }
     /*Fin del estilo de contactos*/
 
-    /*Inicio del estilo de contactos*/
+    /*Inicio del estilo de Nosotros*/
     .container{
         margin-top: 10rem;
     }
@@ -978,12 +958,12 @@ legend{
     .presentation__subtitle-3{
         font-size: 2rem;
     }
-    /*Fin del estilo de contactos*/
+    /*Fin del estilo de nosotros*/
 }
 
-/*==============================Fin del estilo: 600px==============================*/
+/*==============================Fin del estilo: 600px=========================================*/
 
-/*==============================Inicio del estilo: 768px==============================*/
+/*==============================Inicio del estilo: 768px======================================*/
 
 @media (min-width: 768px) {
     /*Inicio del estilo del header*/
@@ -1046,7 +1026,7 @@ legend{
 
     /*Fin del estilo del footer*/
 
-    /*Inicio del estilo del Contenido principal de Teorías y Curiosidades*/
+    /*Inicio del estilo del Contenido principal de Noticias y Teorías y Curiosidades*/
 
     .flex-container__articles{
         display: flex;
@@ -1070,7 +1050,7 @@ legend{
         margin-left: 0;
         margin-right: 0;
     }
-    /*Fin del estilo del Contenido principal de Teorías y Curiosidades*/
+    /*Fin del estilo del Contenido principal de  Noticias y Teorías y Curiosidades*/
 
     /*Inicio del estilo de articulos*/
     .article{
@@ -1206,7 +1186,7 @@ legend{
         }
     /*Fin del estilo de contactos*/
 
-    /*Inicio del estilo de contactos*/
+    /*Inicio del estilo de Nosotros*/
     .container{
         margin-top: 12rem;
     }
@@ -1225,12 +1205,12 @@ legend{
     .presentation__subtitle-3{
         font-size: 2rem;
     }
-    /*Fin del estilo de contactos*/
+    /*Fin del estilo de Nosotros*/
 }
 
-/*==============================Fin del estilo: 768px==============================*/
+/*==============================Fin del estilo: 768px=========================================*/
 
-/*==============================Inicio del estilo: 992px==============================*/
+/*==============================Inicio del estilo: 992px======================================*/
 @media (min-width: 992px){
     /*Inicio del estilo del header*/
 
@@ -1313,7 +1293,7 @@ legend{
 
     /*Fin del estilo del footer*/
 
-    /*Inicio del estilo del Contenido principal de Teorías y Curiosidades*/
+    /*Inicio del estilo del Contenido principal de Noticias y Teorías y Curiosidades*/
 
     .flex-container__articles{
         display: flex;
@@ -1340,7 +1320,7 @@ legend{
         margin-left: 0rem;
         margin-right: 0rem;
     }
-    /*Fin del estilo del Contenido principal de Teorías y Curiosidades*/
+    /*Fin del estilo del Contenido principal de Noticias y Teorías y Curiosidades*/
 
     /*Inicio del estilo de articulos*/
     .article{
@@ -1384,10 +1364,10 @@ legend{
         height: 35rem;
     }
     /*Fin del estilo de articulos*/
+
     /*Inicio del estilo del aside*/
     .aside{
         margin-top: 3rem;
-        /*width: 50%;*/
     }
 
     .aside__content{
@@ -1453,9 +1433,9 @@ legend{
     /*Fin del estilo de nosotros*/
 }
 
-/*==============================Inicio del estilo: 992px==============================*/
+/*==============================Inicio del estilo: 992px======================================*/
 
-/*==============================Inicio del estilo: 1024px==============================*/
+/*==============================Inicio del estilo: 1024px=====================================*/
 
 @media (min-width: 1024px){
 
@@ -1547,7 +1527,7 @@ legend{
 
     /*Fin del estilo del footer*/
 
-    /*Inicio del estilo del Contenido principal de Teorías y Curiosidades*/
+    /*Inicio del estilo del Contenido principal de Noticias y Teorías y Curiosidades*/
     .grid-container-articles{
         grid-template-columns: .8fr 2fr .8fr;
         grid-template-areas: 
@@ -1579,7 +1559,7 @@ legend{
         margin-right: 0;
         width: 26rem;
     }
-    /*Fin del estilo del Contenido principal de Teorías y Curiosidades*/
+    /*Fin del estilo del Contenido principal de Noticias y Teorías y Curiosidades*/
 
     /*Inicio del estilo de articulos*/
     .article{
@@ -1690,9 +1670,9 @@ legend{
     /*Fin del estilo de nosotros*/
 }
 
-/*==============================Fin del estilo: 1024px==============================*/
+/*==============================Fin del estilo: 1024px========================================*/
 
-/*==============================Inicio del estilo: 1200px==============================*/
+/*==============================Inicio del estilo: 1200px=====================================*/
 
 @media (min-width: 1200px){
     /*Inicio del estilo del header*/
@@ -1754,20 +1734,20 @@ legend{
     }
     /*Fin del estilo del contenido principal de index*/
 
-    /*Inicio del estilo del contenido principal de index*/
+    /*Inicio del estilo del footer*/
     .footer{
         height: 20vh;
     }
 
     .footer__title{
         font-size: 2rem;
-        margin-bottom: 1.8rem;
+        margin-bottom: 1.4rem;
     }
 
     .footer__list{
         width: 20%;
     }
-    /*Fin del estilo del contenido principal de index*/
+    /*Fin del estilo del footer*/
 
     /*Inicio del estilo del Contenido principal de Noticias y Teorías y Curiosidades*/
     .grid-container-articles{
@@ -1806,90 +1786,90 @@ legend{
     }
     /*Fin del estilo del Contenido principal de Noticias y Teorías y Curiosidades*/
 
-/*Inicio del estilo de articulos*/
-.article{
-    margin-top: 9.2rem;
-    display: flex;
-    flex-direction: row;
-}
+    /*Inicio del estilo de articulos*/
+    .article{
+        margin-top: 9.2rem;
+        display: flex;
+        flex-direction: row;
+    }
 
-.article__content{
-    margin-left: 3.5rem;
-}
-.article__title{
-    font-size: 3rem;
-}
+    .article__content{
+        margin-left: 3.5rem;
+    }
+    .article__title{
+        font-size: 3rem;
+    }
 
-.article__img{
-    width: 100%;
-    height: 36rem;
-}
+    .article__img{
+        width: 100%;
+        height: 36rem;
+    }
 
-.article__subtitle, .article__table-title{
-    font-size: 2rem;
-}
+    .article__subtitle, .article__table-title{
+        font-size: 2rem;
+    }
 
-.article__text, .article__bold, .article__date, .article__list, .article__table-text{
-    font-size: 1.8rem;
-}
+    .article__text, .article__bold, .article__date, .article__list, .article__table-text{
+        font-size: 1.8rem;
+    }
 
-.article__table-text{
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
+    .article__table-text{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
 
-.article__date{
-    font-size: 1.7rem;
-}
+    .article__date{
+        font-size: 1.7rem;
+    }
 
-.article__video{
-    width: 60rem;
-    height: 35rem;
-}
+    .article__video{
+        width: 60rem;
+        height: 35rem;
+    }
 
-#img-negociacion{
-    width: 30rem; 
-    height: 35rem;
-}
-/*Fin del estilo de articulos*/
+    #img-negociacion{
+        width: 30rem; 
+        height: 35rem;
+    }
+    /*Fin del estilo de articulos*/
 
-/*Inicio del estilo del aside*/
-.aside{
+    /*Inicio del estilo del aside*/
+    .aside{
+        display: block;
+        margin-top: 12rem;
+        width: 100%;
+    }
+
+    .aside__content{
+        margin-right: 2rem;
+    }
+
+    .aside__title{
+        font-size: 2.5rem;
+        line-height: 4rem;
+    }
+
+    .aside__item{
+        margin: 1rem 1rem;
+    }
+
+    .aside__a{
+        font-size: 1.8rem;
+    }
+
+    /*Fin del estilo del aside*/
+
+    /*Inicio del estilo del anuncio*/
+    .ad{
     display: block;
-    margin-top: 12rem;
-    width: 100%;
-}
-
-.aside__content{
-    margin-right: 2rem;
-}
-
-.aside__title{
-    font-size: 2.5rem;
-    line-height: 4rem;
-}
-
-.aside__item{
-    margin: 1rem 1rem;
-}
-
-.aside__a{
-    font-size: 1.8rem;
-}
-
-/*Fin del estilo del aside*/
-
-/*Inicio del estilo del anuncio*/
-.ad{
-    display: block;
     width: 100%;
     margin-top: 12rem;
-}
+    }
 
-.ad__img{
-    width: 90%;
-}
-/*Fin del estilo del anuncio*/
+    .ad__img{
+        width: 90%;
+    }
+    /*Fin del estilo del anuncio*/
 
     /*Inicio del estilo de contactos*/
     .form{
@@ -1923,9 +1903,9 @@ legend{
     /*Fin del estilo de nosotros*/
 }
 
-/*==============================Fin del estilo: 1200px==============================*/
+/*==============================Fin del estilo: 1200px========================================*/
 
-/*==============================Inicio de animaciones==============================*/
+/*==============================Inicio de animaciones=========================================*/
     .animate__bounce{
         animation-duration: 2s;
     }
@@ -1947,4 +1927,4 @@ legend{
         animation-duration: 2s;
         animation-iteration-count: 1;
     }
-/*==============================Fin de animaciones==============================*/
+/*==============================Fin de animaciones============================================*/
