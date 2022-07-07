@@ -224,8 +224,12 @@ body{
         text-decoration: none;
         color: rgb(0, 0, 0);
         font-family: 'Nunito', sans-serif;
-        font-size: 1.3rem;
+        font-size: 1.6rem;
     }
+
+        #aside--margin-art{
+            margin-top: 2rem;
+        }
 /*==============================Fin del estilo del aside==============================*/
 
 /*==============================Inicio del estilo de anuncios==============================*/
@@ -238,30 +242,16 @@ body{
     .ad__img{
         width: 90%;
     }
+
+        #ad--margin-art{
+            margin-top: 2rem;
+        }
 /*==============================Fin del estilo de anuncios==============================*/
 
 /*==============================Inicio del estilo de Contactos==============================*/
 legend{
     display: none;
 }
-    /*
-    .form{
-        font-family: Arial, Helvetica, sans-serif;
-        margin: 17vh auto 2rem auto;
-        display: block;
-        width: 35rem;
-        height: 48rem;
-    }
-
-    .form__input-text{
-        width: 25rem;
-        height: 4rem;
-        display: block;
-        margin: 3rem auto;
-        font-size: 1.5rem;
-    }
-
-    */
     .form{
         display: block;
         width: 90%;
@@ -381,101 +371,105 @@ legend{
 /*==============================Fin del estilo de nosotros==============================*/
 
 /*==============================Inicio del estilos de los articulos==============================*/
-.article{
-    width: 100%;
-    margin-top: 10rem;
-    margin-bottom: 5rem;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-}
-
-.article__box{
-    width: 60%;
-    padding-left: 5rem;
-    margin-right: 2rem;
-}
-.article__title{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3rem;
-}
-
-.article__subtitle, .article__table-title{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-
-.article__table-title{
-    font-family: 'Nunito', sans-serif;
-}
-
-.article__text{
-    width: 60rem;
-}
-
-.article__text, .article__bold, .article__date, .article__list, .article__table-text{
-    font-family: 'Nunito', sans-serif;
-    font-size: 1.8rem;
-    line-height: 3rem;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-}
-
-.article__table{
-    border: .1rem solid rgb(0, 0, 0);
-}
-.article__table-text{
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
-
-.article__table--bg-gray{
-    background-color: rgb(177, 177, 177);
-}
-
-.article__table-border{
-    border-right: .1rem solid rgb(0, 0, 0);
-}
-.article__list{
-    padding-left: 2rem;
-}
-.article__subitem{
-    padding-left: 3rem;
-}
-
-.article__sublist{
-    list-style: none;
-}
-
-.article__date{
-    margin-bottom: 0;
-    margin-top: 1rem;
-    color: rgb(116, 116, 116);
-    font-size: 1.6rem;
-}
-
-.article__bold{
-    font-weight: bold;
-}
-
-.article__img{
-    width: 60rem;
-    height: 35rem;
-}
-
-    #img-negociacion{
-        width: 30rem; 
-        height: 35rem;
+/*
+    .article{
+        width: 100%;
+        margin-top: 10rem;
+        margin-bottom: 5rem;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
     }
 
-.article__video{
-    width: 60rem;
-    height: 35rem;
-}
+    .article__box{
+        width: 100%;
+        padding-left: 5rem;
+        margin-right: 2rem;
+    }
+    
+*/
+    .article{
+        margin-top: 8.2rem;
+        margin-left: .5rem;
+    }
+
+    .article__title{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.5rem;
+    }
+
+    .article__img{
+        display: block;
+        width: 90%;
+        height: 25rem;
+        margin: 1.5rem auto 1.5rem auto
+    }
+
+    .article__bold{
+        font-weight: bold;
+    }
+
+    .article__table-title{
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .article__subtitle, .article__table-title{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .article__text, .article__bold, .article__date, .article__list{
+        font-family: 'Nunito', sans-serif;
+        font-size: 1.6rem;
+        line-height: 3rem;
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .article__table{
+        border: .1rem solid rgb(0, 0, 0);
+    }
+
+    .article__table--bg-gray{
+        background-color: rgb(177, 177, 177);
+    }
+
+    .article__table-border{
+        border-right: .1rem solid rgb(0, 0, 0);
+    }
+    .article__list{
+        padding-left: 2rem;
+    }
+    .article__subitem{
+        padding-left: 3rem;
+    }
+
+    .article__sublist{
+        list-style: none;
+    }
+
+    .article__date{
+        margin-bottom: 0;
+        margin-top: 1rem;
+        color: rgb(116, 116, 116);
+        font-size: 1.6rem;
+    }
+
+    .article__video{
+        width: 95%;
+        height: 35rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #img-negociacion{
+        width: 90%; 
+        height: 35rem;
+    }
 /*==============================Fin del estilos de  los articulos==============================*/
 
-/*==============================Inicio del estilo: 480px==============================*/
+/*==============================Inicio del estilo: 480px=======================================*/
 
 @media (min-width: 480px){
 
@@ -528,6 +522,7 @@ legend{
     .flex-container__articles{
         margin-top: 9rem;
     }
+
     .flex-container__articles-item-article{
         width: 90%;
         margin-left: auto;
@@ -545,6 +540,54 @@ legend{
     }
     /*Fin del estilo del Contenido principal de Teorías y Curiosidades*/
     
+    /*Inicio del estilo de articulos*/
+    .article{
+        margin-top: 8.5rem;
+        margin-left: 2rem;
+    }
+
+    .article__subtitle, .article__table-title{
+        font-size: 2rem;
+    }
+
+    .article__text, .article__bold, .article__date, .article__list, .article__table-text{
+        font-size: 1.8rem;
+    }
+
+    .article__table{
+        border: .1rem solid rgb(0, 0, 0);
+    }
+
+    .article__table-text{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .article__list{
+        padding-left: 2rem;
+    }
+    .article__subitem{
+        padding-left: 3rem;
+    }
+
+    .article__date{
+        margin-bottom: 0;
+        margin-top: 1rem;
+        color: rgb(116, 116, 116);
+        font-size: 1.6rem;
+    }
+
+    .article__video{
+        width: 90%;
+        height: 35rem;
+    }
+
+    #img-negociacion{
+        width: 30rem; 
+        height: 35rem;
+    }
+    /*Inicio del estilo de articulos*/
+
     /*Inicio del estilo del aside*/
     .aside{
         width: 90%;
@@ -561,8 +604,7 @@ legend{
     }
 
     .aside__a{
-        font-family: 'Nunito', sans-serif;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     /*Fin del estilo del aside*/
     
@@ -652,6 +694,60 @@ legend{
     }
     /*Fin del estilo del Contenido principal de Teorías y Curiosidades*/
     
+    /*Inicio del estilo de los articulos*/
+    .article{
+        margin-top: 7.2rem;
+        margin-left: 2rem;
+    }
+
+    .article__title{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.5rem;
+    }
+
+    .article__img{
+        display: block;
+        width: 90%;
+        height: 25rem;
+        margin-left: 0;
+    }
+
+    .article__subtitle, .article__table-title{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .article__text, .article__bold, .article__date, .article__list, .article__table-text{
+        font-size: 1.8rem;
+    }
+
+    .article__table-text{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .article__list{
+        padding-left: 2rem;
+    }
+    .article__subitem{
+        padding-left: 3rem;
+    }
+
+    .article__date{
+        font-size: 1.7rem;
+    }
+
+    .article__video{
+        width: 95%;
+        height: 35rem;
+    }
+
+    #img-negociacion{
+        width: 30rem; 
+        height: 35rem;
+    }
+    /*Fin del estilo de los articulos*/
+    
     /*Inicio del estilo del aside*/
     .aside{
         width: 90%;
@@ -668,8 +764,7 @@ legend{
     }
 
     .aside__a{
-        font-family: 'Nunito', sans-serif;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     /*Fin del estilo del aside*/
     /*Inicio del estilo de contactos*/
@@ -819,6 +914,13 @@ legend{
 
     /*Fin del estilo del Contenido principal de Teorías y Curiosidades*/
 
+    /*Inicio del estilo de los articulos*/
+    .article{
+        margin-top: 8.5rem;
+        margin-left: 2rem;
+    }
+    /*Fin del estilo de los articulos*/
+
     /*Inicio del estilo del aside*/
 
     .aside__content{
@@ -846,7 +948,7 @@ legend{
     }
 
     .ad__img{
-        width: 50%;
+        width: 60%;
     }
     /*Fin del estilo de anuncios*/
 
@@ -970,10 +1072,53 @@ legend{
     }
     /*Fin del estilo del Contenido principal de Teorías y Curiosidades*/
 
+    /*Inicio del estilo de articulos*/
+    .article{
+        margin-top: 9rem;
+        margin-left: 3rem;
+    }
+
+    .article__title{
+        font-size: 3rem;
+    }
+
+    .article__img{
+        width: 90%;
+        height: 29rem;
+    }
+
+    .article__subtitle, .article__table-title{
+        font-size: 2rem;
+    }
+
+    .article__text, .article__bold, .article__date, .article__list, .article__table-text{
+        font-size: 1.8rem;
+    }
+
+    .article__table-text{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .article__date{
+        font-size: 1.7rem;
+    }
+
+    .article__video{
+        width: 90%rem;
+        height: 35rem;
+    }
+
+    #img-negociacion{
+        width: 30rem; 
+        height: 35rem;
+    }
+    /*Fin del estilo de articulos*/
+
     /*Inicio del estilo del aside*/
     .aside{
         margin-top: 3rem;
-        width: 70%;
+        width: 90%;
     }
 
     .aside__content{
@@ -989,7 +1134,7 @@ legend{
     }
 
     .aside__a{
-        font-size: 2.2rem;
+        font-size: 1.8rem;
     }
     /*Fin del estilo del aside*/
 
@@ -1197,10 +1342,52 @@ legend{
     }
     /*Fin del estilo del Contenido principal de Teorías y Curiosidades*/
 
+    /*Inicio del estilo de articulos*/
+    .article{
+        margin-top: 9.2rem;
+        margin-left: 3.5rem;
+    }
+
+    .article__title{
+        font-size: 3rem;
+    }
+
+    .article__img{
+        width: 90%;
+        height: 27rem;
+    }
+
+    .article__subtitle, .article__table-title{
+        font-size: 2rem;
+    }
+
+    .article__text, .article__bold, .article__date, .article__list, .article__table-text{
+        font-size: 1.8rem;
+    }
+
+    .article__table-text{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .article__date{
+        font-size: 1.7rem;
+    }
+
+    .article__video{
+        width: 90%rem;
+        height: 35rem;
+    }
+
+    #img-negociacion{
+        width: 30rem; 
+        height: 35rem;
+    }
+    /*Fin del estilo de articulos*/
     /*Inicio del estilo del aside*/
     .aside{
         margin-top: 3rem;
-        width: 50%;
+        /*width: 50%;*/
     }
 
     .aside__content{
@@ -1230,6 +1417,10 @@ legend{
     .ad__img{
         width: 50%;
     }
+
+        #ad--width{
+            width: auto;
+        }
     /*Fin del estilo de anuncios*/
 
     /*Inicio del estilo de contactos*/
@@ -1390,6 +1581,49 @@ legend{
     }
     /*Fin del estilo del Contenido principal de Teorías y Curiosidades*/
 
+    /*Inicio del estilo de articulos*/
+    .article{
+        margin-top: 9.2rem;
+        margin-left: 3.5rem;
+    }
+
+    .article__title{
+        font-size: 3rem;
+    }
+
+    .article__img{
+        width: 100%;
+        height: 30rem;
+    }
+
+    .article__subtitle, .article__table-title{
+        font-size: 2rem;
+    }
+
+    .article__text, .article__bold, .article__date, .article__list, .article__table-text{
+        font-size: 1.8rem;
+    }
+
+    .article__table-text{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .article__date{
+        font-size: 1.7rem;
+    }
+
+    .article__video{
+        width: 60rem;
+        height: 35rem;
+    }
+
+    #img-negociacion{
+        width: 30rem; 
+        height: 35rem;
+    }
+    /*Fin del estilo de articulos*/
+
     /*Inicio del estilo del aside*/
     .aside{
         margin-top: 10rem;
@@ -1401,9 +1635,8 @@ legend{
     }
 
     .aside__title{
-        font-size: 1.7rem;
-        line-height: 2.5rem;
-        background-color: rgb(124,23,27);
+        font-size: 2.5rem;
+        line-height: 4rem;
     }
 
     .aside__item{
@@ -1411,11 +1644,9 @@ legend{
     }
 
     .aside__a{
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        font-family: 'Nunito', sans-serif;
-        font-size: 1.4rem;
+        font-size: 1.8rem;
     }
+
     /*Fin del estilo del aside*/
 
     /*Inicio del estilo del anuncio*/
@@ -1538,7 +1769,7 @@ legend{
     }
     /*Fin del estilo del contenido principal de index*/
 
-    /*Inicio del estilo del Contenido principal de Teorías y Curiosidades*/
+    /*Inicio del estilo del Contenido principal de Noticias y Teorías y Curiosidades*/
     .grid-container-articles{
         grid-template-columns: .8fr 2fr .8fr;
         grid-template-areas: 
@@ -1553,7 +1784,7 @@ legend{
     .flex-container__articles{
         flex-direction: row;
         flex-wrap: wrap;
-        margin-top: 15vh;
+        margin-top: 10rem;
         justify-content: space-around;
     }
 
@@ -1573,43 +1804,92 @@ legend{
         margin-right: 0;
         width: 26rem;
     }
-    /*Fin del estilo del Contenido principal de Teorías y Curiosidades*/
+    /*Fin del estilo del Contenido principal de Noticias y Teorías y Curiosidades*/
 
-    /*Inicio del estilo del aside*/
-    .aside{
-        margin-top: 10rem;
-        width: 100%;
-    }
+/*Inicio del estilo de articulos*/
+.article{
+    margin-top: 9.2rem;
+    display: flex;
+    flex-direction: row;
+}
 
-    .aside__content{
-        margin-right: 2rem;
-    }
+.article__content{
+    margin-left: 3.5rem;
+}
+.article__title{
+    font-size: 3rem;
+}
 
-    .aside__title{
-        font-size: 1.7rem;
-        line-height: 2.5rem;
-    }
+.article__img{
+    width: 100%;
+    height: 36rem;
+}
 
-    .aside__item{
-        margin: 1rem 1rem;
-        margin-left: 2rem;
-    }
+.article__subtitle, .article__table-title{
+    font-size: 2rem;
+}
 
-    .aside__a{
-        font-size: 1.4rem;
-    }
-    /*Fin del estilo del aside*/
+.article__text, .article__bold, .article__date, .article__list, .article__table-text{
+    font-size: 1.8rem;
+}
 
-    /*Inicio del estilo del anuncio*/
-    .ad{
-        width: 100%;
-        margin-top: 10rem;
-    }
+.article__table-text{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 
-    .ad__img{
-        width: 90%;
-    }
-    /*Fin del estilo del anuncio*/
+.article__date{
+    font-size: 1.7rem;
+}
+
+.article__video{
+    width: 60rem;
+    height: 35rem;
+}
+
+#img-negociacion{
+    width: 30rem; 
+    height: 35rem;
+}
+/*Fin del estilo de articulos*/
+
+/*Inicio del estilo del aside*/
+.aside{
+    display: block;
+    margin-top: 12rem;
+    width: 100%;
+}
+
+.aside__content{
+    margin-right: 2rem;
+}
+
+.aside__title{
+    font-size: 2.5rem;
+    line-height: 4rem;
+}
+
+.aside__item{
+    margin: 1rem 1rem;
+}
+
+.aside__a{
+    font-size: 1.8rem;
+}
+
+/*Fin del estilo del aside*/
+
+/*Inicio del estilo del anuncio*/
+.ad{
+    display: block;
+    width: 100%;
+    margin-top: 12rem;
+}
+
+.ad__img{
+    width: 90%;
+}
+/*Fin del estilo del anuncio*/
 
     /*Inicio del estilo de contactos*/
     .form{
