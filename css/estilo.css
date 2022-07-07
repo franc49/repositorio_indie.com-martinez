@@ -52,7 +52,7 @@ body{
 
         #header__img{
             width: 100%;
-        }
+            }
 
     .header__item:hover{
         background-color: rgb(29,90,92);
@@ -1926,15 +1926,25 @@ legend{
 /*==============================Fin del estilo: 1200px==============================*/
 
 /*==============================Inicio de animaciones==============================*/
-.animate__bounce{
-    animation-duration: 2s;
-}
+    .animate__bounce{
+        animation-duration: 2s;
+    }
 
-.link__animation:hover{
-    position: relative;
-    z-index: 1;
-    transform: scale(1.1);
-    transition: .5s;
-}
+    .link__animation:hover{
+        position: relative;
+        z-index: 1;
+        transform: scale(1.1);
+        transition: .5s;
+    }
 
+    @keyframes animacion_logo{
+        0%{margin-left: -8rem;}
+        100%{margin-left: 0;}
+    }
+
+    .header__img-animacion{
+        animation-name: animacion_logo;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+    }
 /*==============================Fin de animaciones==============================*/
