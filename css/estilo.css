@@ -342,7 +342,7 @@ legend{
     .presentation__title{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 2rem;
-        font-weight: bold
+        font-weight: bold;
     }
     .presentation__text{
     font-family: 'Nunito', sans-serif;
@@ -453,9 +453,9 @@ legend{
 
     /*Inicio del estilo del header*/
 
-    #header__link-img{
-        width: 60%;
-    }
+        #header__link-img{
+            width: 60%;
+        }
 
     .header__button{
         font-size: 2.2rem;
@@ -491,7 +491,6 @@ legend{
 
     .footer__list{
         width: 50%;
-        justify-content: space-between;
     }
     /*Fin del estilo del footer*/
 
@@ -830,9 +829,9 @@ legend{
 
 @media (min-width: 600px){
     /*Inicio del estilo del header*/
-    #header__link-img{
-        width: 50%;
-    }
+        #header__link-img{
+            width: 50%;
+        }
     /*Fin del estilo del header*/
 
     /*Inicio del estilo del Contenido Principal del index*/
@@ -1194,6 +1193,7 @@ legend{
     .presentation__title{
         font-size: 2.5rem;
     }
+
     .presentation__text{
     font-size: 1.7rem;
     }  

@@ -1,0 +1,24 @@
+/*Inicio de comunes*/
+body{
+    background-image: $background;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+h1,
+h2,
+h3{
+    font-family: $titleFont;
+    color: $white;
+    font-weight: $bold;
+}
+$margin-top: 10rem;
+/*Fin de comunes*/
