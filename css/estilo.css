@@ -303,7 +303,7 @@ legend{
     }
 
     .form__text-check{
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
 
     .form__sub-text-input{
@@ -313,7 +313,7 @@ legend{
     .form__text-radio{
         display: block;
         text-align: center;
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         height: 4rem;
         font-family: 'Nunito', sans-serif;
     }
@@ -328,8 +328,8 @@ legend{
             color: rgb(255, 255, 255);
             border-radius: .5rem;
             cursor: pointer;
-            font-family: 'Nunito';
-            font-size: 1.4rem;
+            font-family: 'Nunito', sans-serif;
+            font-size: 1.5rem;
         }
 /*==============================Fin del estilo de Contactos================================*/
 
@@ -649,7 +649,6 @@ legend{
 
     .footer__list{
         width: 45%;
-        justify-content: space-between;
     }
     /*Fin del estilo del footer*/
 
@@ -863,7 +862,6 @@ legend{
 
     .footer__list{
         width: 40%;
-        justify-content: space-between;
     }
 
     /*Fin del estilo del footer*/
@@ -1020,7 +1018,6 @@ legend{
     .footer__list{
         width: 35%;
         height: 5.2rem;
-        justify-content: space-between;
     }
 
     /*Fin del estilo del footer*/
@@ -1275,10 +1272,6 @@ legend{
     /*Fin del estilo del Contenido Principal del index*/
     
     /*Inicio del estilo del footer*/
-    .footer{
-        margin-top: 3rem;
-    }
-
     .footer__title{
         margin-bottom: 1rem;
         margin-left: 1rem;
@@ -1288,7 +1281,6 @@ legend{
     .footer__list{
         width: 28%;
         height: 5.2rem;
-        justify-content: space-between;
     }
 
     /*Fin del estilo del footer*/
@@ -1512,10 +1504,6 @@ legend{
     /*Fin del estilo del Contenido Principal del index*/
 
     /*Inicio del estilo del footer*/
-    
-    .footer{
-        height: 20vh;
-    }
 
     .footer__title{
         font-size: 2rem;
@@ -1687,8 +1675,7 @@ legend{
     }
 
     .header__text{
-        font-size: 1.7rem;
-        line-height: 9rem;
+        font-size: 1.8rem;
     }    
 
         #header__link-img{
@@ -1735,9 +1722,6 @@ legend{
     /*Fin del estilo del contenido principal de index*/
 
     /*Inicio del estilo del footer*/
-    .footer{
-        height: 20vh;
-    }
 
     .footer__title{
         font-size: 2rem;
