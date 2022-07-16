@@ -244,9 +244,6 @@ body{
 /*==============================Fin del estilo de anuncios====================================*/
 
 /*==============================Inicio del estilo de Contactos================================*/
-legend{
-    display: none;
-}
     .form{
         display: block;
         width: 90%;
@@ -271,7 +268,6 @@ legend{
     .form__text--gray{
         color: rgb(128, 128, 128);
         font-size: 1.4rem;
-        font-weight: bold;
     }
 
     .form__flex-container{
@@ -351,7 +347,7 @@ legend{
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
     }  
-    
+
     .presentation__subtitle{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.8rem;
@@ -588,7 +584,7 @@ legend{
     /*Inicio del estilo de contactos*/
     .form{
         width: 70%;
-        margin-top: 11rem
+        margin-top: 11rem;
     }
 
     /*Fin del estilo de contactos*/
@@ -1128,10 +1124,6 @@ legend{
 
     /*Inicio del estilo de contactos*/
 
-    .form{
-        width: 70%;
-    }
-
     .form__title{
         font-size: 2.3rem;
     }
@@ -1398,7 +1390,7 @@ legend{
     /*Inicio del estilo de contactos*/
 
     .form{
-        width: 60%;
+        width: 50%;
     }
 
     /*Fin del estilo de contactos*/

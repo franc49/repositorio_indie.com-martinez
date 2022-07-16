@@ -282,3 +282,136 @@ h3 {
 
 /*Fin de nosotros: 1200px*/
 /*Final de nosotros*/
+/*Inicio de contactos*/
+.form {
+  display: block;
+  width: 90%;
+  margin: 8rem auto 0 auto;
+  border: 1px solid rgba(165, 165, 165, 0.8); }
+  .form .form__title {
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif; }
+  .form .form__text, .form .form__text--gray {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600; }
+  .form .form__text--gray {
+    color: gray; }
+  .form .form__text-label, .form .form__sub-text-input {
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif; }
+  .form .form__sub-text-input {
+    font-size: 1.2rem;
+    font-weight: 600; }
+  .form .form__flex-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5rem auto; }
+    .form .form__flex-container .form__flex-items {
+      width: 11.5rem;
+      height: 6rem; }
+      .form .form__flex-container .form__flex-items .form__text-radio {
+        display: block;
+        text-align: center;
+        font-size: 1.5rem;
+        height: 4rem;
+        font-family: 'Nunito', sans-serif; }
+      .form .form__flex-container .form__flex-items .form__input-radio {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 1rem; }
+  .form #submit {
+    display: block;
+    margin: 2rem auto;
+    width: 25rem;
+    height: 3rem;
+    background: linear-gradient(to left, #108599, #01c8eb);
+    border: none;
+    color: white;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem; }
+  @media (min-width: 480px) {
+    .form {
+      width: 70%;
+      margin-top: 11rem; } }
+  @media (min-width: 576px) {
+    .form {
+      width: 60%; }
+      .form .form__title {
+        font-size: 2rem;
+        line-height: 3rem; }
+      .form .form__text, .form .form__text--gray {
+        font-size: 1.8rem; }
+      .form .form__text--gray {
+        font-size: 1.5rem; }
+      .form .form__flex-container {
+        margin: 1.5rem auto; }
+        .form .form__flex-container .form__flex-items {
+          width: 11.5rem;
+          height: 6rem; }
+          .form .form__flex-container .form__flex-items .form__text-radio {
+            font-size: 1.6rem;
+            height: 4rem; }
+          .form .form__flex-container .form__flex-items .form__input-radio {
+            margin-top: 1rem; }
+      .form .form__text-label, .form .form__sub-text-input {
+        font-size: 1.5rem; }
+      .form .form__sub-text-input {
+        font-size: 1.4rem; }
+      .form #submit {
+        margin: 2rem auto;
+        width: 25rem;
+        height: 3rem;
+        font-size: 1.5rem; } }
+  @media (min-width: 600px) {
+    .form {
+      width: 70%; } }
+  @media (min-width: 768px) {
+    .form .form__title {
+      font-size: 2rem; }
+    .form .form__text-label, .form .form__sub-text-input {
+      font-size: 1.8rem;
+      margin-top: 2rem; }
+    .form .form__sub-text-input {
+      font-size: 1.8rem;
+      margin-top: 1rem; }
+    .form .form__text, .form .form__text--gray, .form .form__text--gray {
+      font-size: 2rem;
+      margin-top: 3rem; }
+    .form .form__text--gray {
+      font-size: 1.6rem; }
+    .form .form__flex-container {
+      margin: 1.5rem auto; }
+      .form .form__flex-container .form__flex-items {
+        width: 11.5rem;
+        height: 6rem; }
+        .form .form__flex-container .form__flex-items .form__text-radio {
+          font-size: 1.8rem;
+          height: 4rem; }
+        .form .form__flex-container .form__flex-items .form__input-radio {
+          margin-top: 1rem; }
+    .form #submit {
+      margin: 2rem auto;
+      width: 50%;
+      height: 4rem;
+      font-size: 1.8rem; } }
+  @media (min-width: 992px) {
+    .form {
+      width: 50%; } }
+  @media (min-width: 1024px) {
+    .form {
+      width: 45%; } }
+  @media (min-width: 1200px) {
+    .form {
+      width: 40%; }
+      .form .form__flex-container .form__flex-items .form__input-radio {
+        margin-top: 2rem; } }
+
+/*Fin de contactos*/
