@@ -1,0 +1,174 @@
+/*Inicio del index*/
+    .grid-container-index{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+        width: 100%;
+    }
+
+    .link{
+        grid-area: main;
+        margin-top: 6.5rem;
+        .link__flex{
+            display: flex;
+            flex-direction: column;
+            .link__conteiner-art{
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                .link__art{
+                    text-align: center;
+                    .link__img{
+                        width: 100%;
+                        height: 18rem;
+                        margin-top: 2rem;
+                    }
+                }
+                .link__a{
+                    text-decoration: none;
+                    .link__title{
+                        color: rgb(0, 0, 0);
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: $textSm;
+                        margin-top: 1rem;
+                        font-weight: $bold;
+                    }
+                }
+            }
+            .link__animation:hover{
+                position: relative;
+                z-index: 1;
+                transform: scale(1.1);
+                transition: .5s;
+            }
+        }
+
+        @media (min-width: 480px){
+            margin-top: 8.7rem;
+            .link__flex{
+                .link__conteiner-art{
+                    .link__art{
+                        .link__img{
+                            height: 25rem;
+                        }
+                    }
+                    .link__a{
+                        .link__title{
+                            font-size: $textBig;
+                            margin-top: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media (min-width: 576px){
+            margin-top: 8rem;
+            .link__flex{
+                .link__conteiner-art{
+                    width: 70%;
+                    .link__art{
+                        .link__img{
+                            height: 23rem;
+                        }
+                    }
+                    .link__a{
+                        .link__title{
+                            font-size: $textBig;
+                            margin-top: 1rem;
+                            margin-left: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media (min-width: 600px) {
+            margin-top: 8.3rem;
+            .link__flex{
+                .link__conteiner-art{
+                    width: 65%;
+                    .link__art{
+                        .link__img{
+                            height: 25rem;
+                            margin-top: 3rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media (min-width: 768px) {
+            margin-top: 8.8rem;
+            .link__flex{
+                .link__conteiner-art{
+                    width: 70%;
+                    .link__art{
+                        .link__img{
+                            height: 30rem;
+                            margin-top: 2rem;
+                        }
+                    }
+                    .link__a{
+                        .link__title{
+                            font-size: $textExtraBig;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media (min-width: 992px) {
+            .link__flex{
+                flex-direction: row;
+                flex-wrap: wrap;
+                .link__conteiner-art{
+                    width: 40%;
+                    .link__art{
+                        .link__img{
+                            width: 100%;
+                            height: 25rem;
+                        }
+                    }
+                    .link__a{
+                        .link__title{
+                            font-size: $textBig;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media (min-width: 1024px) {
+            margin-top: 9rem;
+            .link__flex{
+                .link__conteiner-art{
+                    width: 31.5rem;
+                    .link__art{
+                        .link__img{
+                            height: 17rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media (min-width: 1200px) {
+            margin-top: 9rem;
+            .link__flex{
+                .link__conteiner-art{
+                    width: 28.5rem;
+                    .link__a{
+                        .link__title{
+                            font-size: $textMd;
+                        }
+                    }
+                }
+            }
+        }
+    }
+/*Fin del index*/
