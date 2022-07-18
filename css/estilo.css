@@ -511,7 +511,7 @@ body{
         font-size: 2rem;
         margin-top: 1rem;
     }
-    /*Fin del estilo del Contenido principal de Noticias yTeorías y Curiosidades*/
+    /*Fin del estilo del Contenido principal de Noticias y Teorías y Curiosidades*/
     
     /*Inicio del estilo de articulos*/
     .article{
@@ -1711,13 +1711,6 @@ body{
     /*Fin del estilo del footer*/
 
     /*Inicio del estilo del Contenido principal de Noticias y Teorías y Curiosidades*/
-    .grid-container-articles{
-        grid-template-columns: .8fr 2fr .8fr;
-        grid-template-areas: 
-        "header header header"
-        "aside arts anuncios"
-        "footer footer footer";
-    }
 
     .flex-container__articles-item-article{
         width: 50%;
@@ -1743,7 +1736,6 @@ body{
         margin-top: 1rem;
         margin-left: 0;
         margin-right: 0;
-        width: 26rem;
     }
     /*Fin del estilo del Contenido principal de Noticias y Teorías y Curiosidades*/
 

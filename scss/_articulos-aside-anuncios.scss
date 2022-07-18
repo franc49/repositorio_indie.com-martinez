@@ -233,21 +233,21 @@
             font-family: 'Nunito', sans-serif;
             font-size: 1.6rem;
         }
-    
-        .ad{
-            width: 100%;
-            text-align: center;
-            grid-area: anuncios;
-            
-            .ad__img{
-                width: 90%;
-            }
-        }
-        
-            #ad--margin-art{
-                margin-top: 2rem;
-            }
     }
+    
+    .ad{
+        width: 100%;
+        text-align: center;
+        grid-area: anuncios;
+        
+        .ad__img{
+            width: 90%;
+        }
+    }
+    
+        #ad--margin-art{
+            margin-top: 2rem;
+        }
 
         #aside--margin-art{
             margin-top: 2rem;
@@ -308,15 +308,15 @@
             .aside__a{
                 font-size: $textMd;
             }
+        }
+
+        .ad{
+            width: 60%;
+            margin: 0 auto;
+        }
     
-            .ad{
-                width: 100%;
-                margin: 0 auto;
-            }
-        
-            .ad__img{
-                width: 60%;
-            }
+        .ad__img{
+            width: 100%;
         }
     }
 
@@ -335,30 +335,34 @@
             .aside__item{
                 margin: 1rem 1.5rem;
             }
+        }
 
-            .ad{
-                width: 100%;
-                margin: 0 auto;
-            }
-        
-            .ad__img{
-                width: 50%;
-            }
+        .ad{
+            width: 50%;
+            margin: 0 auto;
+        }
+    
+        .ad__img{
+            width: 100%;
         }
     }
 
     @media (min-width: 992px){
         .ad{
-            width: 100%;
+            width: 50%;
             margin: 0 auto;
         }
     
         .ad__img{
-            width: 50%;
+            width: 100%;
         }
     
             #ad--width{
                 width: auto;
+            }
+
+            #ad__img--width{
+                width: 50%;
             }
     }
 
@@ -377,16 +381,19 @@
             .aside__item{
                 margin: 1rem 1rem;
             }
-
-            .ad{
-                width: 100%;
-                margin-top: 18.5vh;
-            }
-        
-            .ad__img{
-                width: 90%;
-            }
         }
+        .ad{
+            width: 100%;
+            margin-top: 18.5vh;
+        }
+    
+        .ad__img{
+            width: 90%;
+        }
+
+            #ad__img--width{
+                width: 80%;
+            }
     }
 
     @media (min-width: 1200px){
@@ -394,16 +401,15 @@
             display: block;
             margin-top: 12rem;
             width: 100%;
-
-            .ad{
-                display: block;
-                margin-top: 12rem;
-                }
-            
-                .ad__img{
-                    width: 90%;
-                }
         }
+        .ad{
+            display: block;
+            margin-top: 12rem;
+            }
+        
+            .ad__img{
+                width: 90%;
+            }
     }
 /*Fin del Aside + Anuncio*/
 
